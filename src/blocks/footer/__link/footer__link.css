@@ -1,18 +1,12 @@
-.header__link {
+.footer__link {
     text-decoration: none;
-    color: black;
     font-size: 21px;
     font-weight: 500;
-    margin-right: 20px;
+    color: black;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.header__link:last-child {
-    margin-right: 0;
-}
-
-.header__link:hover {
+.footer__link:hover{
     color: #A9A9A9;
-
 }

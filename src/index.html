@@ -7,21 +7,107 @@
 </head>
 <body class="page">
     <header class="header page__header" >
-        <img class="header__logo" src="<%=require('./images/logo.jpg')%>" />
+        <img class="header__logo" src="<%=require('./images/logo.jpg')%>" alt="logo"/>
         <div class="header__main">
-            <p class="header__link">About</p>
-            <p class="header__link">Skills</p>
-            <p class="header__link">Projects</p>
-            <p class="header__link">Contact</p>
+            <a class="header__link" href="#about">About</a>
+            <a class="header__link" href="#skills">Skills</a>
+            <a class="header__link" href="#projects">Projects</a>
+            <a class="header__link" href="#footer">Contact</a>
         </div>
     </header>
-    <main class="content">
+    <main class="content page__content">
+        <a name="about"></a>
         <section class="about">
-
+            <div class="about__column">
+                <h1 class="about__title">Hello, I’m Lucy Naumenko.</h1>
+                <img class="about__image" src="<%=require('./images/arrow.svg')%>" alt="arrow"/>
+            </div>
+            <div>
+                <p class="about__information">A Junior Frontend Developer with a great desire to grow and develop in this field.</p> 
+            </div>
+        </section>
+        <section class="skills page__skills">
+            <a name="skills"></a>
+            <h2 class="skills__title">My skills</h2>
+            <div class="skills__container">
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/html.png')%>"/>
+                    <p class="skill__title">HTML</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/CSS3.png')%>"/>
+                    <p class="skill__title">CSS3</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/js.svg')%>"/>
+                    <p class="skill__title">JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/ts.png')%>"/>
+                    <p class="skill__title">TypeScript</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/react.png')%>"/>
+                    <p class="skill__title">React</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/redux.svg')%>"/>
+                    <p class="skill__title">Redux</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/cy.png')%>"/>
+                    <p class="skill__title">Cypress</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/jest.png')%>"/>
+                    <p class="skill__title">Jest</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/git.png')%>"/>
+                    <p class="skill__title">Git</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/figma.png')%>"/>
+                    <p class="skill__title">Figma</p>
+                </div>
+            </div>
+        </section>
+        <section class="projects page__projects">
+            <a name="projects"></a>
+            <div class="project">
+                <div class="project__main">
+                    <h2 class="project__title">01 / Stellar Burger </h2>
+                    <p class="project__info">Website designer for creating an order with space burgers. Here you will need to register to place an order. And it’s just beautiful (there is a loader in the form of Pac-Man).</p>
+                    <a class="project__link" href="https://github.com/lucy2n/react-stellar-burger">See more ↗</a>
+                </div>
+                <img class="project__image" src="<%=require('./images/stellarBurger.jpg')%>" alt="stellarBurger" />
+            </div>
+            <div class="project">
+                <div class="project__main">
+                    <h2 class="project__title">02 / Mesto </h2>
+                    <p class="project__info">An interactive page with the ability to add picture cards. Each card can be liked and deleted. If a picture card belongs to you, you can delete it. You can also change your profile data and avatar.</p>
+                    <a class="project__link" href="https://github.com/lucy2n/mesto-project">See more ↗</a>
+                </div>
+                <img class="project__image" src="<%=require('./images/mesto.jpg')%>" alt="mesto"/>
+            </div>
+            <div class="project">
+                <div class="project__main">
+                    <h2 class="project__title">03 / ProCharity </h2>
+                    <p class="project__info">ProCharity is a place where charities and volunteers can find each other. ProCharity is pro professionals ready to share skills and experience with charities and develop with them.</p>
+                    <a class="project__link" href="https://github.com/lucy2n/ProCharity-project">See more ↗</a>
+                </div>
+                <img class="project__image" src="<%=require('./images/ProCharity.jpg')%>" alt="mesto"/>
+            </div>
         </section>
     </main>
-    <footer>
-
+    <a name="footer"></a>
+    <footer class="footer page__footer"> 
+        <p class="footer__creator">Lucy Naumenko - 2023</p>
+        <div class="footer__links">
+            <a class="footer__link" href="https://www.linkedin.com/in/lucy-naumenko-805382254/">Linkedin</a>
+            <a class="footer__link" href="https://t.me/lucy_naumenko">Telegram</a>
+            <a class="footer__link" href="https://github.com/lucy2n">GitHub</a>
+        </div>
     </footer>
 </body>
 </html>
