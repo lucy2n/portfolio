@@ -587,7 +587,7 @@ template {
     max-width: 1120px;
     display: flex;
     flex-direction: column;
-    gap: 100px
+    gap: 100px;
 }
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/project.css ***!
@@ -598,6 +598,7 @@ template {
     padding-bottom: 100px;
     border-bottom: solid 1px black;
     flex-wrap: wrap;
+    justify-content: center;
 }
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/__title/project__title.css ***!
@@ -620,9 +621,17 @@ template {
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/__image/project__image.css ***!
   \***********************************************************************************************************************************************************************/
 .project__image {
-    max-width: 600px;
-    max-height: 325px;
+    max-width: 53%;
+    max-height: 50%;
+    margin-bottom: 20px;
 }
+
+@media screen and (max-width: 994px) {
+    .project__image {
+        max-width: 400px;
+        max-height: 200px;
+    }
+} 
 
 /*!*********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/__link/project__link.css ***!
@@ -634,6 +643,7 @@ template {
     cursor: pointer;
     transition: 0.5s;
     color: black;
+    margin-bottom: 20px;
 }
 
 .project__link:hover {
@@ -656,6 +666,7 @@ template {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 /*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__creator/footer__creator.css ***!
