@@ -2,3 +2,9 @@
     display: flex;
     gap: 20px
 }
+
+@media screen and (max-width: 680px) {
+    .footer__links {
+        display: none;
+    }
+} 

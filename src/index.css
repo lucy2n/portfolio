@@ -9,6 +9,7 @@
 @import url(./blocks/page/__projects/page__projects.css);
 @import url(./blocks/page/__footer/page__footer.css);
 @import url(./blocks/page/__skills/page__skills.css);
+@import url(./blocks/page/__footer/page__footer.css);
 
  /* Header */
 @import url(./blocks/header/header.css);

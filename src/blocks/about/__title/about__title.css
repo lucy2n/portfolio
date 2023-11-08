@@ -4,3 +4,10 @@
     font-style: normal;
     font-weight: 500;
 }
+
+@media screen and (max-width: 990px) {
+    .about__title {
+        margin: 0 0 10%;
+        font-size: 40px;
+    }
+} 

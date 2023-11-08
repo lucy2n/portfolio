@@ -5,3 +5,9 @@
     color: #606060;
     text-align: justify;
 }
+
+@media screen and (max-width: 990px) {
+    .about__information {
+        font-size: 27px;
+    }
+} 
