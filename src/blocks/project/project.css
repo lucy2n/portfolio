@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 990px) {
     .project {
-        justify-content: center;
+        justify-content: start;
     }
 } 
