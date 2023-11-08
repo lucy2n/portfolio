@@ -674,7 +674,7 @@ template {
 
 @media screen and (max-width: 990px) {
     .project {
-        justify-content: center;
+        justify-content: start;
     }
 } 
 /*!***********************************************************************************************************************************************************************!*\
@@ -739,8 +739,15 @@ template {
     max-width: 356px;
     display: flex;
     flex-direction: column;
-    margin-right: 170px;
+    margin-right: 5%;
 }
+
+@media screen and (max-width: 800px) {
+    .project__main {
+        width: 100%;
+        margin-right: 0;
+    }
+} 
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/footer.css ***!
   \******************************************************************************************************************************************************/
