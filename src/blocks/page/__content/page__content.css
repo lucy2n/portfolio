@@ -1,0 +1,9 @@
+.page__content {
+    margin: 200px auto;
+}
+
+@media screen and (max-width: 1340px) {
+    .page__content {
+        margin: 200px 10%;
+    }
+} 

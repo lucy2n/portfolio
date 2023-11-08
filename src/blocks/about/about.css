@@ -1,0 +1,6 @@
+.about {
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

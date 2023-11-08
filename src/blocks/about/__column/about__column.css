@@ -1,0 +1,24 @@
+.about__column {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.about__column:last-child {
+    max-width: 580px;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .about__column {
+        margin-right: 1%;
+    }
+} 
+
+@media screen and (max-width: 1230px) {
+    .about__column:last-child {
+        max-width: 350px;
+        margin-right: 0;
+    }
+} 

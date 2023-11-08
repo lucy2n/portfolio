@@ -1,0 +1,13 @@
+.project__main {
+    max-width: 356px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 800px) {
+    .project__main {
+        width: 100%;
+        margin-right: 0;
+    }
+} 
