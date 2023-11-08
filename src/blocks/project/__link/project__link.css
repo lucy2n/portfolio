@@ -5,6 +5,7 @@
     cursor: pointer;
     transition: 0.5s;
     color: black;
+    margin-bottom: 20px;
 }
 
 .project__link:hover {

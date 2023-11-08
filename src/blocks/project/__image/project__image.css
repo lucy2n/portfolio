@@ -1,4 +1,12 @@
 .project__image {
-    max-width: 600px;
-    max-height: 325px;
+    max-width: 53%;
+    max-height: 50%;
+    margin-bottom: 20px;
 }
+
+@media screen and (max-width: 994px) {
+    .project__image {
+        max-width: 400px;
+        max-height: 200px;
+    }
+} 
