@@ -1,9 +1,11 @@
 .about__column {
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     margin-right: 100px;
 }
 
 .about__column:last-child {
+    max-width: 580px;
     margin-right: 0;
 }
