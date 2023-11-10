@@ -450,6 +450,13 @@ template {
         margin: 0 10% 70px;
     }
 } 
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/page/__theme/page_theme_dark.css ***!
+  \*********************************************************************************************************************************************************************/
+.page_theme_dark {
+    background-color: #202020;
+    color: white
+}
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/header.css ***!
   \******************************************************************************************************************************************************/
@@ -473,6 +480,8 @@ template {
 .header__main {
     display: flex;
     flex-wrap: 5px;
+    gap: 20px;
+    align-items: center;
 }
 
 @media screen and (max-width: 680px) {
@@ -487,6 +496,17 @@ template {
 .header__logo {
     width: 110px;
     height: 90px;
+    background-image: url(d994748534afebbd28e4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__logo/_theme/header__logo_theme_dark.css ***!
+  \*************************************************************************************************************************************************************************************/
+.header__logo_theme_dark {
+    background-image: url(4533abd6c4f82c7262e7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__link/header__link.css ***!
@@ -496,18 +516,46 @@ template {
     color: black;
     font-size: 21px;
     font-weight: 500;
-    margin-right: 20px;
     cursor: pointer;
     transition: 0.5s;
-}
-
-.header__link:last-child {
-    margin-right: 0;
 }
 
 .header__link:hover {
     color: #A9A9A9;
 
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__link/_theme/header__link_theme_dark.css ***!
+  \*************************************************************************************************************************************************************************************/
+.header__link_theme_dark {
+    color: white;
+}
+
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__button/header__button.css ***!
+  \***********************************************************************************************************************************************************************/
+.header__button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url(d82d94c01f653c4592a7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__button/_theme/header__button_theme_dark.css ***!
+  \*****************************************************************************************************************************************************************************************/
+.header__button_theme_dark {
+    width: 40px;
+    height: 40px;
+    background-image: url(df8014a34660593154ea.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
@@ -547,12 +595,11 @@ template {
     width: 34px;
     height: 38px;
 }
-/*!*************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about/__me/about__me.css ***!
-  \*************************************************************************************************************************************************************/
-.about__me {
-    width: 370px;
-    height: 400px;
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about/__image/_theme/about__image_theme_dark.css ***!
+  \*************************************************************************************************************************************************************************************/
+.about__image_theme_dark {
+    filter: invert(2);
 }
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/about/__information/about__information.css ***!
@@ -626,6 +673,12 @@ template {
     font-weight: 500;
     
 }
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/skills/__title/_theme/skills__title_theme_dark.css ***!
+  \***************************************************************************************************************************************************************************************/
+.skills__title_theme_dark {
+    color: white;
+}
 /*!****************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/skill/skill.css ***!
   \****************************************************************************************************************************************************/
@@ -677,6 +730,12 @@ template {
         justify-content: start;
     }
 } 
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/_theme/project_theme_dark.css ***!
+  \**************************************************************************************************************************************************************************/
+.project_theme_dark {
+    border-bottom: solid 1px white;
+}
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/__title/project__title.css ***!
   \***********************************************************************************************************************************************************************/
@@ -732,6 +791,12 @@ template {
 .project__link:hover {
     color: #A9A9A9;
 }
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/__link/_theme/project__link_theme_dark.css ***!
+  \***************************************************************************************************************************************************************************************/
+.project__link_theme_dark {
+    color: white;
+}
 /*!*********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/__main/project__main.css ***!
   \*********************************************************************************************************************************************************************/
@@ -779,6 +844,12 @@ template {
 
 .footer__link:hover{
     color: #A9A9A9;
+}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__link/_theme/footer__link_theme_dark.css ***!
+  \*************************************************************************************************************************************************************************************/
+.footer__link_theme_dark {
+    color: white;
 }
 /*!*********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__links/footer__links.css ***!
