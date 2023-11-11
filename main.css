@@ -470,7 +470,9 @@ template {
 
 @media screen and (max-width: 680px) {
     .header {
+        gap: 20px;
         justify-content: center;
+        align-items: center;
     }
 } 
 
@@ -479,17 +481,17 @@ template {
   \*******************************************************************************************************************************************************************/
 .header__main {
     display: flex;
-    flex-wrap: 5px;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
 }
 
 @media screen and (max-width: 680px) {
     .header__main {
-        display: none;
+        justify-content: center;
+        align-items: center;
     }
 } 
-
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__logo/header__logo.css ***!
   \*******************************************************************************************************************************************************************/
@@ -500,6 +502,7 @@ template {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__logo/_theme/header__logo_theme_dark.css ***!
   \*************************************************************************************************************************************************************************************/
@@ -546,6 +549,13 @@ template {
     background-image: url(d82d94c01f653c4592a7.png);
     background-size: contain;
     background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.header__button:hover {
+    width: 40px;
+    height: 40px;
+    background-image: url(9283c7d5a64a3ff12722.png);
 }
 /*!*****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__button/_theme/header__button_theme_dark.css ***!
@@ -556,6 +566,12 @@ template {
     background-image: url(df8014a34660593154ea.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.header__button_theme_dark:hover {
+    width: 45px;
+    height: 45px;
+    background-image: url(578554ca4937a8ef5e74.png);
 }
 /*!********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/content/content.css ***!
