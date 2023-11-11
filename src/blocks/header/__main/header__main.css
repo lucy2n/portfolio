@@ -1,12 +1,13 @@
 .header__main {
     display: flex;
-    flex-wrap: 5px;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
 }
 
 @media screen and (max-width: 680px) {
     .header__main {
-        display: none;
+        justify-content: center;
+        align-items: center;
     }
 } 
