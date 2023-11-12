@@ -1,0 +1,5 @@
+.header__logo_theme_dark {
+    background-image: url(../../../../images/logo_dark.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
