@@ -524,6 +524,7 @@ template {
 
 .header__link:hover {
     color: #A9A9A9;
+    font-size: 23px;
 
 }
 /*!*************************************************************************************************************************************************************************************!*\
@@ -817,6 +818,7 @@ template {
 
 .project__link:hover {
     color: #A9A9A9;
+    font-size: 20px;
 }
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/project/__link/_theme/project__link_theme_dark.css ***!
@@ -871,6 +873,7 @@ template {
 
 .footer__link:hover{
     color: #A9A9A9;
+    font-size: 24px;
 }
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__link/_theme/footer__link_theme_dark.css ***!
