@@ -3,11 +3,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* background-image: url(../../images/bg.png); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-
 }
 
 .about {
