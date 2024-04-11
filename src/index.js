@@ -30,4 +30,4 @@ const toggleButton = () => {
     })
 }
 
-toggleButton();
+toggleButton(); 
