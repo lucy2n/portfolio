@@ -8,6 +8,8 @@
 
 @media screen and (max-width: 680px) {
     .header {
+        gap: 20px;
         justify-content: center;
+        align-items: center;
     }
-} 
+}

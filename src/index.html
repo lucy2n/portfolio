@@ -7,12 +7,13 @@
 </head>
 <body class="page">
     <header class="header page__header" >
-        <img class="header__logo" src="<%=require('./images/logo.jpg')%>" alt="logo"/>
+        <a class="header__logo"></a>
         <div class="header__main">
             <a class="header__link" href="#about">About</a>
             <a class="header__link" href="#skills">Skills</a>
             <a class="header__link" href="#projects">Projects</a>
             <a class="header__link" href="#footer">Contact</a>
+            <button class="header__button"></button>
         </div>
     </header>
     <main class="content page__content">
@@ -47,6 +48,14 @@
                     <p class="skill__title">TypeScript</p>
                 </div>
                 <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/nest.svg')%>"/>
+                    <p class="skill__title">Nest.js</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/node.png')%>"/>
+                    <p class="skill__title">Node.js</p>
+                </div>
+                <div class="skill">
                     <img class="skill__image" src="<%=require('./images/react.png')%>"/>
                     <p class="skill__title">React</p>
                 </div>
@@ -61,6 +70,14 @@
                 <div class="skill">
                     <img class="skill__image" src="<%=require('./images/jest.png')%>"/>
                     <p class="skill__title">Jest</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/mongo.svg')%>"/>
+                    <p class="skill__title">MongoDB</p>
+                </div>
+                <div class="skill">
+                    <img class="skill__image" src="<%=require('./images/postgresql.png')%>"/>
+                    <p class="skill__title">PostgreSQL</p>
                 </div>
                 <div class="skill">
                     <img class="skill__image" src="<%=require('./images/git.png')%>"/>
@@ -78,7 +95,8 @@
                 <div class="project__main">
                     <h2 class="project__title">01 / Stellar Burger </h2>
                     <p class="project__info">Website designer for creating an order with space burgers. Here you will need to register to place an order. And it’s just beautiful (there is a loader in the form of Pac-Man).</p>
-                    <a class="project__link" href="https://github.com/lucy2n/react-stellar-burger">See more ↗</a>
+                    <a class="project__link" target="_blank" href="https://github.com/lucy2n/react-stellar-burger">GitHub</a>
+                    <a class="project__link" target="_blank" href="https://lucy2n.github.io/react-stellar-burger/">Site</a>
                 </div>
                 <img class="project__image" src="<%=require('./images/stellarBurger.jpg')%>" alt="stellarBurger" />
             </div>
@@ -86,7 +104,8 @@
                 <div class="project__main">
                     <h2 class="project__title">02 / Mesto </h2>
                     <p class="project__info">An interactive page with the ability to add picture cards. Each card can be liked and deleted. If a picture card belongs to you, you can delete it. You can also change your profile data and avatar.</p>
-                    <a class="project__link" href="https://github.com/lucy2n/mesto-project">See more ↗</a>
+                    <a class="project__link" target="_blank"  href="https://github.com/lucy2n/mesto-project">GitHub</a>
+                    <a class="project__link" target="_blank" href="https://lucy2n.github.io/mesto-project/">Site</a>
                 </div>
                 <img class="project__image" src="<%=require('./images/mesto.jpg')%>" alt="mesto"/>
             </div>
@@ -94,7 +113,8 @@
                 <div class="project__main">
                     <h2 class="project__title">03 / ProCharity </h2>
                     <p class="project__info">ProCharity is a place where charities and volunteers can find each other. ProCharity is for professionals ready to share skills and experience with charities and develop with them.</p>
-                    <a class="project__link" href="https://github.com/lucy2n/ProCharity-project">See more ↗</a>
+                    <a class="project__link" target="_blank" href="https://github.com/ProCharity-Practicum">GitHub</a>
+                    <a class="project__link" target="_blank" href="https://procharity.ru">Site</a>
                 </div>
                 <img class="project__image" src="<%=require('./images/ProCharity.jpg')%>" alt="proCharity"/>
             </div>
@@ -102,7 +122,8 @@
                 <div class="project__main">
                     <h2 class="project__title">04 / Algososh </h2>
                     <p class="project__info">An algorithm visualiser is written in this project. Here you can see in more detail how basic algorithms work with beautiful animation. There are also tests for this project.</p>
-                    <a class="project__link" href="https://github.com/lucy2n/ProCharity-project">See more ↗</a>
+                    <a class="project__link" href="https://github.com/lucy2n/algososh">GitHub</a>
+                    <a class="project__link" target="_blank" href="https://procharity.ru">Site</a>
                 </div>
                 <img class="project__image" src="<%=require('./images/algo.jpg')%>" alt="algososh"/>
             </div>
