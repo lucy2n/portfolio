@@ -32,6 +32,7 @@
 @import url(./blocks/about/__image/_theme/about__image_theme_dark.css);
 @import url(./blocks/about/__information/about__information.css);
 @import url(./blocks/about/__column/about__column.css);
+@import url(./blocks/about/__main-image/about__main-image.css);
 
 /* Skills */ 
 @import url(./blocks/skills/skills.css);
